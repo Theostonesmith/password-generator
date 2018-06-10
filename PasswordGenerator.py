@@ -1,3 +1,6 @@
+#from string import ascii_uppercase, ascii_uppercase, digits
+#from random import randint
+#from tkinter import Label, Entry, Text, INSERT, END, Tk
 import string
 import random
 import tkinter
@@ -28,7 +31,7 @@ def Salasana_Listaus(maara=5, pituus=8):
         #print(salasana)
         kaikki_salasanat += salasana + '\r\n'
     #print("Lista on valmis")
-    print(kaikki_salasanat)
+    #print(kaikki_salasanat)
     #teksti.insert('end', kaikki_salasanat)
     return kaikki_salasanat
     #tkinter.messagebox.showinfo(Tee_Salasana)
@@ -88,5 +91,6 @@ maara.bind("<Return>", NapinPainallus)
 #teksti.place(x=10, y=20)
 #nappi.place(x=20, y=150)
 teksti = TextField(top)
+NapinPainallus()
 #nappi.pack()
 top.mainloop()
